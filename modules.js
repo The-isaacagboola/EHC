@@ -2,7 +2,6 @@ const fs = require("fs");
 
 // const data = fs.readFileSync("hello.js", "utf8");
 
-/*
 fs.readFile("hello.js", "utf8", (err, data) => {
   if (err) {
     console.error("Error reading file", err.message);
@@ -19,7 +18,6 @@ fs.readFile("hello.js", "base64", (err, data) => {
 
   console.log(data);
 });
-*/
 
 fs.writeFile("my-file", "Hello Ladies", (err, data) => {
   if (err) throw err;
